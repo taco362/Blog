@@ -1,25 +1,17 @@
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-black font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-6xl flex-col items-center justify-between py-32 px-16 
-      bg-black dark:bg-black">
-         <div className="flex w-full flex-col gap-6 items-center text-center">
-          <h1 className="w-full text-5xl text-white font-sans font-thin  tracking-tight whitespace-normal text-center ">
-            Hi, I'm Dilip Kumar – Web Developer in Delhi
-          </h1>
-          <h2 className="w-full text-3xl text-white font-sans font-thin leading-tight tracking-tight whitespace-normal text-center ">
-            Custom Web Development Services in Delhi NCR
-          </h2>
-          <p className="w-9/12 text-xl text-white font-sans font-thin leading-tight tracking-tight whitespace-normal text-center ">
-            I am a freelance web developer based in Delhi, specializing in responsive website design, 
-            custom web development, and SEO-optimized solutions. With expertise in 
-            Next.js, React, PHP, and WordPress, I help businesses in Delhi and beyond build 
-            high-performing, secure, and user-friendly websites.
+    <div className="flex min-h-screen items-center justify-center bg-background">
+      <main className="flex min-h-screen flex-col items-center justify-between py-32 px-16">
+        <div className="flex flex-col items-center py-32 px-32 space-y-6 text-center">
+          <h1 className="text-5xl">Hi, I'm Chaeyeong Park – Web Developer in South Korea</h1>
+          <h2 className="text-3xl mx-3">Computer Science Student & Web Developer</h2>
+          <p className="text-base mx-10 mb-10">I am a Computer Science student at Incheon National University,<br/>
+            building web applications with a focus on clarity, structure, and usability.<br></br>
+            I mainly work with Next.js and React and enjoy turning ideas into well-organized, 
+            functional interfaces.
           </p>
         </div>
-      
-        
       </main>
     </div>
   );
