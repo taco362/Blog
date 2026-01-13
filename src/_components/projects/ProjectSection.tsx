@@ -6,7 +6,7 @@ import CustomWhiteButton from "../CustomWhiteButton";
 export default function ProjectsSection() {
   const featuredProjects = projects.slice(0, 3);
   return (
-    <section className="py-4">
+    <section className="py-4 px-16">
       <h2 className="text-4xl font-thin text-white">Key Projects</h2>
 
       <div className="mt-16">
