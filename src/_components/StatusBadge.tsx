@@ -1,4 +1,4 @@
-"use client";
+"use client";{/*클릭 상태 기억*/}
 
 import { useState } from "react";
 import { USER_STATUS } from "@/_datas/status.data";
