@@ -21,7 +21,7 @@ function ServiceCard({ service }: ServiceCardProps) {
 
 export default function ServicesSection() {
   return (
-    <section className="flex flex-col py-8 space-y-6">
+    <section className="flex flex-col py-8 px-16 space-y-6">
       <h1 className="text-5xl font-thin">Services</h1>
 
       <ul className="flex gap-8">

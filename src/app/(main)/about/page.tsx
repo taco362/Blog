@@ -1,8 +1,16 @@
-// src/app/about/page.tsx
-export default function AboutPage() {
+
+import React from 'react';
+import About from '@/_components/Intro';
+import Timeline from '@/_components/TimeLine';
+import Moreproject from '@/_components/moreproject';
+
+
+export default function TimelinePage() {
   return (
-    <div className="p-20 text-white text-3xl">
-      안녕하세요! 제 소개 페이지입니다.
-    </div>
+    <main className="bg-black min-h-screen">
+      <About />
+      <Timeline />
+      <Moreproject/>
+      </main>
   );
 }
