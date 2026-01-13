@@ -4,12 +4,13 @@ import ProjectList from "./ProjectList";
 import CustomWhiteButton from "../CustomWhiteButton";
 
 export default function ProjectsSection() {
+  const featuredProjects = projects.slice(0, 3);
   return (
     <section className="py-4">
       <h2 className="text-4xl font-thin text-white">Key Projects</h2>
 
       <div className="mt-16">
-        <ProjectList projects={projects} />
+        <ProjectList projects={featuredProjects} />
       </div>
 
       <div className="mt-8 flex justify-center">
