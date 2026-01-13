@@ -19,8 +19,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html>
       <body>
-        <Navbar />  {/* 여기에 네비게이션 바를 두면 모든 페이지에 고정! */}
-        <main>{children}</main> {/* 여기가 본문이 갈아 끼워지는 곳! */}
+        <div className="max-w-7xl mx-auto px-6"> 
+          <Navbar /> 
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   );
