@@ -9,14 +9,14 @@ export default function Footer() {
         <div className="w-[370px] h-[191px] flex flex-col max-w-sm"> 
           {/* 자기소개 문구.leading:줄간격 넉넉하게 */} 
           <p className="text-[16px] font-light leading-relaxed">
-            Ji You Han is an experienced web developer in Korea, 
+            Chaeyeong Park is an experienced web developer in Korea, 
             specializing in responsive, user-friendly websites and 
             custom solutions to grow your business. Contact today.
           </p>
 
           {/* 소셜 아이콘.cusor-pointer:마우스커서올리면 손가락모양으로 경*/}
           <div className="flex gap-4 mt-15">
-            <a href="https://github.com/hanjiyu257-cloud" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/taco362" target="_blank" rel="noopener noreferrer">
             <FaGithub className="w-[20px] h-[20px] hover:text-white cursor-pointer" /></a>
             <FaLinkedin className="w-[20px] h-[20px] cursor-pointer" />
             <FaXTwitter className="w-[20px] h-[20px] cursor-pointer" />
@@ -41,28 +41,28 @@ export default function Footer() {
             <h3 className="mb-[20px] text-[18px] font-normal">What is this song?</h3>
             <ul className="flex flex-col space-y-2 text-center text-[16px] font-light">
                 <li>
-                <a href="https://www.youtube.com/watch?v=LDGC47F6k_4" target="_blank" rel="noopener noreferrer">
-                  POP
+                <a href="https://youtu.be/U0PkAWqbGPk?si=Jkb4CQxMf7jmQC18" target="_blank" rel="noopener noreferrer">
+                  The black skirts
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/watch?v=p8pYDvb3BzA" target="_blank" rel="noopener noreferrer">
-                  R&B
+                <a href="https://youtu.be/MPCkqAvYtyM?si=J81WS3Tpa84V3WgU" target="_blank" rel="noopener noreferrer">
+                  Parasol
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/watch?v=nej08HFsp7A" target="_blank" rel="noopener noreferrer">
-                  BAND
+                <a href="https://youtu.be/YTKyaHIK3hM?si=YKJvDPc5BjUtkUTq" target="_blank" rel="noopener noreferrer">
+                  Ghost Bookstore
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/watch?v=NwOvu-j_WjY" target="_blank" rel="noopener noreferrer">
-                  JPOP
+                <a href="https://youtu.be/pFptt7Cargc?si=0GFMinwh_GjiYamR" target="_blank" rel="noopener noreferrer">
+                  Tame impala
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/watch?v=bw4AuPrLWeA" target="_blank" rel="noopener noreferrer">
-                  KPOP
+                <a href="https://youtu.be/DIPxnt5vnhU?si=boTWvqFTvi3m7T2N" target="_blank" rel="noopener noreferrer">
+                  Silica Gel
                 </a>
               </li>
             </ul>
@@ -72,13 +72,13 @@ export default function Footer() {
             <h3 className="mb-[20px] text-[18px] font-normal">Anime Watchlist</h3>
             <ul className="flex flex-col space-y-2 text-center text-[16px] font-light">
                 <li>
-                <a href="https://namu.wiki/w/%EC%82%AC%EB%AC%B4%EB%9D%BC%EC%9D%B4%20%EC%B0%B8%ED%94%84%EB%A3%A8" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  사무라이 참프루
+                <a href="https://namu.wiki/w/%EB%A7%88%EB%B2%95%EC%86%8C%EB%85%80%20%EB%A7%88%EB%8F%84%EC%B9%B4%E2%98%86%EB%A7%88%EA%B8%B0%EC%B9%B4" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  마법소녀 마도카☆마기카
                 </a>
               </li>
               <li>
-                <a href="https://namu.wiki/w/%EC%9C%A0%EB%A3%A8%EC%BA%A0%E2%96%B3(%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%201%EA%B8%B0)" target="_blank" rel="noopener noreferrer">
-                  유루캠△
+                <a href="https://namu.wiki/w/%EA%B0%95%EC%B2%A0%EC%9D%98%20%EC%97%B0%EA%B8%88%EC%88%A0%EC%82%AC(2003%EB%85%84%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98)" target="_blank" rel="noopener noreferrer">
+                  강철의 연금술사
                 </a>
               </li>
               <li>
@@ -87,8 +87,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://namu.wiki/w/%EC%86%8C%EB%93%9C%20%EC%95%84%ED%8A%B8%20%EC%98%A8%EB%9D%BC%EC%9D%B8(%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%201%EA%B8%B0)" target="_blank" rel="noopener noreferrer">
-                  소드아트온라인
+                <a href="https://namu.wiki/w/%EB%8D%B0%EC%8A%A4%EB%85%B8%ED%8A%B8" target="_blank" rel="noopener noreferrer">
+                  데스노트
                 </a>
               </li>
             </ul>
@@ -96,8 +96,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto py-8 flex justify-between items-center text-sm font-light">
-        <p>© 2026 Ji You Han. All rights reserved.</p>
-        <p>Last updated by JiYou on 13 January, 2026 at 6:00 PM UTC 09:00</p>
+        <p>© 2026 Chaeyeong Park. All rights reserved.</p>
+        <p>Last updated by Chaeyeong on 13 January, 2026 at 6:00 PM UTC 09:00</p>
       </div>
     </footer>
   );
