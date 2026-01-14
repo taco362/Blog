@@ -14,7 +14,7 @@ export default function ProjectCard({ project }: Props) {
           src={project.coverImage.src}
           alt={project.coverImage.alt}
           fill
-          className="object-cover object-[center_top]"
+          className="object-contain object-[center_top]"
           sizes="520px"
         />
       </div>

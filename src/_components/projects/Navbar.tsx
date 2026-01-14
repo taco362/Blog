@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="py-6 fixed top-0 bg-black w-full">
+    <nav className="py-6 fixed top-0 bg-black w-full z-50">
       <div className="flex items-center justify-between px-6 max-w-7xl mx-auto">
         <div className="flex gap-8 max-w-5xl text-lg font-thin">
             {navLinks.map((link) => (
