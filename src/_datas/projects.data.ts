@@ -6,6 +6,11 @@ export type Project = {
     src: string;
     alt: string;
   };
+  jobRole: string;
+  client: string;
+  year: string;
+  websiteUrl: string;
+  tech: string[];
 };
 
 export const projects: Project[] = [
@@ -18,6 +23,11 @@ export const projects: Project[] = [
       src: "/projects/Astarion_image.webp",
       alt: "Astarion image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
   },
   {
     id: "Gale",
@@ -28,6 +38,12 @@ export const projects: Project[] = [
       src: "/projects/Gale_image.webp",
       alt: "Gale image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
     id: "Lae'zel",
@@ -38,6 +54,12 @@ export const projects: Project[] = [
       src: "/projects/Lae'zel_image.webp",
       alt: "Lae'zel image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
     id: "Shadowheart",
@@ -48,6 +70,12 @@ export const projects: Project[] = [
       src: "/projects/Shadowheart_image.webp",
       alt: "Shadowheart image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
     id: "Wyll",
@@ -58,6 +86,12 @@ export const projects: Project[] = [
       src: "/projects/Wyll_image.webp",
       alt: "Wyll image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
     id: "Karlach",
@@ -68,6 +102,12 @@ export const projects: Project[] = [
       src: "/projects/Karlach_image.webp",
       alt: "Karlach image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
     id: "The Dark Urge",
@@ -78,6 +118,12 @@ export const projects: Project[] = [
       src: "/projects/TheDarkUrge_image.webp",
       alt: "The Dark Urge image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
     id: "Scratch",
@@ -88,6 +134,12 @@ export const projects: Project[] = [
       src: "/projects/Scratch_image.webp",
       alt: "Scratch image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
     id: "Owlbear Cub",
@@ -98,6 +150,12 @@ export const projects: Project[] = [
       src: "/projects/OwlbearCub_image.webp",
       alt: "Owlbear Cub image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
     id: "Strange Ox",
@@ -108,5 +166,11 @@ export const projects: Project[] = [
       src: "/projects/StrangeOx_image.webp",
       alt: "Strange Ox image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   }
 ];

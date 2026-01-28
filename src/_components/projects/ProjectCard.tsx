@@ -1,20 +1,29 @@
+"use client"; // useRouter를 쓰기 위해 상단에 추가
 import Image from "next/image";
 import type { Project } from "@/_datas/projects.data";
+import { useRouter } from "next/navigation";
 import CustomBlackButton from "../CustomBlackButton";
 
 type Props = {
   project: Project;
+  buttonText?: string; 
 };
 
-export default function ProjectCard({ project }: Props) {
+export default function ProjectCard({ project, buttonText = "View Project →" }: Props) {
+  const router = useRouter();
+
+  const handleLink = () => {
+    // 상세 페이지 경로로 이동
+    router.push(`/portfolio/${project.title}`);
+  };
   return (
     <article className="overflow-hidden rounded-2xl bg-neutral-900 border border-neutral-800">
-      <div className="relative h-[200px] w-full ">
+      <div className="relative h-[350px] w-full ">
         <Image
           src={project.coverImage.src}
           alt={project.coverImage.alt}
           fill
-          className="object-contain object-[center_top]"
+          className="object-cover object-center"
           sizes="520px"
         />
       </div>
@@ -28,7 +37,7 @@ export default function ProjectCard({ project }: Props) {
           {project.description}
         </p>
         <div className="mt-6">
-          <CustomBlackButton text = "View Project" />
+          <CustomBlackButton text={buttonText} onClick={handleLink}/>
         </div>
       </div>
       

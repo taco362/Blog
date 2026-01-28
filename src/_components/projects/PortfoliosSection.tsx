@@ -1,4 +1,4 @@
-// _components/projects/portfoliosSection.tsx
+
 import { projects } from "@/_datas/projects.data";
 import ProjectList from "./ProjectList";
 

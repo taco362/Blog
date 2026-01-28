@@ -16,7 +16,7 @@ export const aboutData: AboutInfo = {
   descriptionTitle: "Early Passion and Background",
   description: "Coming from New Delhi, India, I am a passionate web developer dedicated to continuous self-improvement and technology. I thrive on solving complex problems, learning new skills, and pushing beyond my comfort zone.",
  profileImage: {
-    src: "/projects/profiles.png",  
+    src: "/projects/Astarion_image.webp",  
     alt: "Profile Picture of Dilip",
   },
 };
