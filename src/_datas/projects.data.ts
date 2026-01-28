@@ -6,107 +6,171 @@ export type Project = {
     src: string;
     alt: string;
   };
+  jobRole: string;
+  client: string;
+  year: string;
+  websiteUrl: string;
+  tech: string[];
 };
 
 export const projects: Project[] = [
   {
-    id: "first-agent",
-    title: "Clove",
+    id: "Astarion",
+    title: "Astarion",
     description:
-      "Clove, a Scottish mischief-maker, torments his enemies both in the heat of battle and in the cold of death. A young immortal, Clove instills in his enemies the unease of his imminent return.",
+      "Astarion prowled the night as a vampire spawn for centuries, serving a sadistic master until a mind flayer parasite freed him from his bonds. Now that he can walk in daylight the game is on, for only his old master stands in the way of him becoming the greatest vampire the world has ever known",
     coverImage: {
-      src: "/projects/clove2.jpg",
-      alt: "The First Agent",
+      src: "/projects/Astarion_image.webp",
+      alt: "Astarion image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
   },
   {
-    id: "second-agent",
-    title: "Omen",
+    id: "Gale",
+    title: "Gale",
     description:
-      "Omen, the Ghost of Memory, hunts from the shadows. His ability to blind enemies, move anywhere on the battlefield, and induce paranoia leaves opponents confused and unable to predict his next attack.",
+      "Gale is a wizard prodigy whose love for a goddess made him attempt a dread feat no mortal should. Blighted by the forbidden magic of ancient Netheril, Gale strives to undo the corruption that is overtaking him and win back his goddess' favour before he becomes a destroyer of worlds.",
     coverImage: {
-      src: "/projects/omen.jpg",
-      alt: "The Second Agent",
+      src: "/projects/Gale_image.webp",
+      alt: "Gale image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
-    id: "third-agent",
-    title: "Viper",
+    id: "Lae'zel",
+    title: "Lae'zel",
     description:
-      "Viper, an American chemist, uses a variety of chemical weapons to dominate the battlefield and blind the enemy. Even if you survive the chemical attack, you'll be playing into Viper's psychological warfare.",
+      "Lae’zel is a ferocious Githyanki warrior, mighty even by the standards of her mind flayer-hunting kind. Faced with transforming into the very monster she’s sworn to destroy, Lae’zel must prove herself worthy of rejoining her people – if they don’t execute her first.",
     coverImage: {
-      src: "/projects/viper2.jpg",
-      alt: "The Third Agent",
+      src: "/projects/Lae'zel_image.webp",
+      alt: "Lae'zel image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
-    id: "fourth-agent",
-    title: "Deadlock",
+    id: "Shadowheart",
+    title: "Shadowheart",
     description:
-      "Norwegian agent Deadlock deploys cutting-edge nanowires to defend against threatening attacks on the battlefield. No one can escape Deadlock's surveillance or survive his relentless attacks.",
+      "A loyal cleric of Shar, Shadowheart is the sole survivor of a holy mission undertaken on the Mistress of the Night’s behest. She alone must deliver a relic of immense power to her coven in Baldur’s Gate, while threatened by a strange new magic that is burgeoning from within.",
     coverImage: {
-      src: "/projects/deadlock.png",
-      alt: "The fourth Agent",
+      src: "/projects/Shadowheart_image.webp",
+      alt: "Shadowheart image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
-    id: "fifth-agent",
-    title: "ISO",
+    id: "Wyll",
+    title: "Wyll",
     description:
-      "A hired Chinese troubleshooter, Iso enters a state of focus and disrupts his enemies. Iso reconstructs the surrounding energy into a bulletproof shield, propelling himself forward and focusing on his next duelist until he is defeated.",
+      "Noble by birth, Wyll made his name as the heroic ‘Blade of Frontiers’. But to become a living legend, he struck a bargain with a devil, a bargain from which he longs to break free before it consumes his soul for good.",
     coverImage: {
-      src: "/projects/ISO.jpg",
-      alt: "The fifth Agent",
+      src: "/projects/Wyll_image.webp",
+      alt: "Wyll image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
-    id: "sixth-agent",
-    title: "JETT",
+    id: "Karlach",
+    title: "Karlach",
     description:
-      "Jet, a Korean-born fighter known for his swift and stealthy movements, is not afraid to take risks that others would never dare. When combat breaks out, he invariably uses his superior abilities to launch surprise attacks.",
+      "Karlach has escaped ten years of service in the Hells with nothing but the axe on her back - and the infernal engine blazing furiously where her heart used to be.",
     coverImage: {
-      src: "/projects/jett.jpg",
-      alt: "The sixth Agent",
+      src: "/projects/Karlach_image.webp",
+      alt: "Karlach image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
-    id: "seventh-agent",
-    title: "GOGUMA",
+    id: "The Dark Urge",
+    title: "The Dark Urge",
     description:
-      "GOGUMA is JMT. Muckgossipdda..",
+      "You remember nothing but a path paved with blood. Unimaginable cruelty whispers to you from within. Can you escape it? Would you even want to?",
     coverImage: {
-      src: "/projects/GOGUMA.jpg",
-      alt: "The seventh Agent",
+      src: "/projects/TheDarkUrge_image.webp",
+      alt: "The Dark Urge image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
-    id: "eighth-agent",
-    title: "GOGUMA",
+    id: "Scratch",
+    title: "Scratch",
     description:
-      "GOGUMA is JMT. Muckgossipdda..",
+      "Scratch is super cute. He even knows how to play ball. He sometimes brings me good stuff.",
     coverImage: {
-      src: "/projects/GOGUMA.jpg",
-      alt: "The eighth Agent",
+      src: "/projects/Scratch_image.webp",
+      alt: "Scratch image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
-    id: "ninth-agent",
-    title: "GOGUMA",
+    id: "Owlbear Cub",
+    title: "Owlbear Cub",
     description:
-      "GOGUMA is JMT. Muckgossipdda..",
+      "Owlbear Cub has lost his parents. He runs around the campsite with Scratch.",
     coverImage: {
-      src: "/projects/GOGUMA.jpg",
-      alt: "The ninth Agent",
+      src: "/projects/OwlbearCub_image.webp",
+      alt: "Owlbear Cub image",
     },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
   },
   {
-    id: "tenth-agent",
-    title: "GOGUMA",
+    id: "Strange Ox",
+    title: "Strange Ox",
     description:
-      "GOGUMA is JMT. Muckgossipdda..",
+      "Strange Ox appears to be a transformed being, but nothing has been clearly revealed.",
     coverImage: {
-      src: "/projects/GOGUMA.jpg",
-      alt: "The tenth Agent",
+      src: "/projects/StrangeOx_image.webp",
+      alt: "Strange Ox image",
     },
-  },
+    jobRole: "Controller",
+    client: "Valorant",
+    year: "2024",
+    websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
+    tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
+
+  }
 ];

@@ -1,4 +1,3 @@
-
 @import "tailwindcss";
 
 :root {
@@ -7,9 +6,9 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-sans); 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans); 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,3 +23,70 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
 }
+
+
+
+@layer utilities {
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .stagger {
+    animation: fadeUp 280ms ease-out both;
+  }
+
+  @keyframes popDown {
+    from { opacity: 0; transform: translateY(-120px) scale(0.92); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  .pop-down {
+    transform-origin: center;
+    animation: popDown 420ms ease-out both;
+    will-change: transform, opacity;
+  }
+
+  @keyframes smackInTR {
+    from { opacity: 0; transform: translate(80px, -80px) scale(0.88); }
+    to   { opacity: 1; transform: translate(0, 0) scale(1); }
+  }
+
+  .smack-in-tr {
+    transform-origin: center;
+    animation: smackInTR 420ms ease-out both;
+    will-change: transform, opacity;
+  }
+
+  @keyframes popUp {
+    from { opacity: 0; transform: translateY(24px) scale(0.92); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  .pop-up {
+    transform-origin: center;
+    animation: popUp 420ms ease-out both;
+    will-change: transform, opacity;
+  }
+
+  @keyframes fadePopUp {
+    from { opacity: 0; transform: translateY(18px) scale(0.96); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  .reveal-up {
+    animation: fadePopUp 420ms ease-out both;
+    will-change: transform, opacity;
+    transform-origin: center;
+  }
+
+  @keyframes dotPop {
+    from { opacity: 0; transform: translateX(-50%) scale(0.4); }
+    to   { opacity: 1; transform: translateX(-50%) scale(1); }
+  }
+  .reveal-dot {
+    animation: dotPop 280ms ease-out both;
+    will-change: transform, opacity;
+    transform-origin: center;
+  }
+}
+

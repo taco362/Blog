@@ -1,8 +1,9 @@
 interface CustomBlackButtonProps {
   text: string;
+  onClick?:()=>void;
 }
 
-export default function CustomBlackButton({ text }: CustomBlackButtonProps) {
+export default function CustomBlackButton({ text, onClick }: CustomBlackButtonProps) {
   return (
     <button 
       className="

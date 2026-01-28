@@ -1,13 +1,14 @@
 
+
 import Image from "next/image";
 import { aboutData } from "@/_datas/about_data";
 
 export default function AboutSection() {
   return (
-    <section className="bg-black text-white pt-32 px-6 md:px-0">
-      <div className="mx-auto"style={{ maxWidth: '1232px' }}>
+    <section className="bg-black text-white pt-32 px-6">
+      <div className="mx-auto" style={{ maxWidth: '1232px' }}>
         
-        <div className="text-center mb-20 md:mb-36">
+        <div className="text-left md:text-center mb-10 pop-down" style={{ animationDelay: "250ms" }}>
           <h1 className="text-white text-5xl font-thin mb-10 leading-[52.8px] capitalize">
             {aboutData.title}
           </h1>
@@ -16,9 +17,9 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <div className="flex flex-row items-center justify-between gap-10 w-full mb-32">
-          <div className="flex-1 w-full flex flex-col">
-            <h2 className="text-white text-3xl font-thin leading-snug"style={{ marginBottom: '50px' }}>
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between w-full mb-32 gap-y-10 md:gap-x-10">
+          <div className="flex flex-col w-full max-w-[625px] pop-down" style={{ animationDelay: "100ms" }}>
+            <h2 className="text-white text-2xl md:text-3xl font-thin leading-snug" style={{ marginBottom: '24px' }}>
               {aboutData.descriptionTitle}
             </h2>
             <p className="text-white text-lg font-thin leading-relaxed">
@@ -27,8 +28,8 @@ export default function AboutSection() {
           </div>
 
           <div className="shrink-0">
-            <div className="relative rounded-full overflow-hidden bg-black"
-                  style ={{ width: '450px', height: '450px' }}>
+            <div className="relative rounded-full overflow-hidden bg-black
+              w-full max-w-[450px] aspect-square pop-down" style ={{ animationDelay: "100ms" }}>
               <Image
                 src={aboutData.profileImage.src}
                 alt={aboutData.profileImage.alt}
